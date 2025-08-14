@@ -11,7 +11,7 @@ const DECREMENT = 'post/decrement'
 const INCREASE_BY = 'post/increaseBy'
 const DECREASE_BY = 'post/decreaseBy'
 
-function reducer(state = initialState, action) {
+function reducer(state = initialState, action) { 
   switch (action.type) {
     case INCREMENT:
       return { ...state, post: state.post + 1 }
